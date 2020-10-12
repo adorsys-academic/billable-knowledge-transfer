@@ -1,0 +1,2 @@
+# billable-knowledge-transfer
+In his thesis Tim Abraham designed and investigated a flexible, expandable and easily approachable infrastructure for knowledge transfer within an agile, tribe-based organisation. As part of this concept token-based micro-payments are used as incentives to allow compensations on a blockchain-based DRM. Thereby, providing educational material becomes a billable activity, supporting the business character of the organisation. Tim evaluated the concept by implementing a functional prototype.
