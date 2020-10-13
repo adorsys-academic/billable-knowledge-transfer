@@ -4,9 +4,9 @@
 
 #### Repo related to the Bachelor Thesis of Tim Abraham
 
-![Infrastructure](Graphics/InfrastructureBlockchainBasedKnowledgeTransfer.png)
+![Infrastructure](https://github.com/adorsys-academic/billable-knowledge-transfer/blob/main/Graphics/InfrastructureBlockchainBasedKnowledgeTransfer.png?raw=true)
 
-![Demo](Graphics/demo.mp4)
+![Demo](https://github.com/adorsys-academic/billable-knowledge-transfer/blob/main/Graphics/demo.mp4)
 
 #### Producer 
     -> MAC-Client
