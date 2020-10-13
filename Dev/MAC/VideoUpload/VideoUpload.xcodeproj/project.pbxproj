@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22886DFA2468478B0025C1B9 /* SerializeKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886DF92468478B0025C1B9 /* SerializeKeys.swift */; };
+		22886DFE24684DD90025C1B9 /* Encryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22886DFD24684DD90025C1B9 /* Encryption.swift */; };
+		2297CA33246A275000D54282 /* Endpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2297CA32246A275000D54282 /* Endpoints.swift */; };
+		22A5437A24066C9900386548 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5437924066C9900386548 /* AppDelegate.swift */; };
+		22A5437C24066C9900386548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A5437B24066C9900386548 /* ContentView.swift */; };
+		22A5437E24066C9C00386548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A5437D24066C9C00386548 /* Assets.xcassets */; };
+		22A5438124066C9C00386548 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A5438024066C9C00386548 /* Preview Assets.xcassets */; };
+		22A5438424066C9C00386548 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A5438224066C9C00386548 /* Main.storyboard */; };
+		22A543B2240D61CE00386548 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A543B1240D61CE00386548 /* Networking.swift */; };
+		43138EB812A3A007E1DA9024 /* Pods_VideoUpload.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78E4802B15B5162AAA87738D /* Pods_VideoUpload.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01F8FC57CDB981CBD177AEBD /* Pods-VideoUpload.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoUpload.release.xcconfig"; path = "Target Support Files/Pods-VideoUpload/Pods-VideoUpload.release.xcconfig"; sourceTree = "<group>"; };
+		22886DF92468478B0025C1B9 /* SerializeKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SerializeKeys.swift; sourceTree = "<group>"; };
+		22886DFD24684DD90025C1B9 /* Encryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encryption.swift; sourceTree = "<group>"; };
+		2297CA32246A275000D54282 /* Endpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoints.swift; sourceTree = "<group>"; };
+		22A5437624066C9900386548 /* VideoUpload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoUpload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A5437924066C9900386548 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22A5437B24066C9900386548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22A5437D24066C9C00386548 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22A5438024066C9C00386548 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22A5438324066C9C00386548 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22A5438524066C9C00386548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A5438624066C9C00386548 /* VideoUpload.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VideoUpload.entitlements; sourceTree = "<group>"; };
+		22A543B1240D61CE00386548 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		6E921E5CD29161D3E228959F /* Pods-VideoUpload.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VideoUpload.debug.xcconfig"; path = "Target Support Files/Pods-VideoUpload/Pods-VideoUpload.debug.xcconfig"; sourceTree = "<group>"; };
+		78E4802B15B5162AAA87738D /* Pods_VideoUpload.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VideoUpload.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A5437324066C9900386548 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43138EB812A3A007E1DA9024 /* Pods_VideoUpload.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A5436D24066C9900386548 = {
+			isa = PBXGroup;
+			children = (
+				22A5437824066C9900386548 /* VideoUpload */,
+				22A5437724066C9900386548 /* Products */,
+				6BE0130E6B879139DD476F1A /* Pods */,
+				FE22FE3BBFF21B65EEBD474B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22A5437724066C9900386548 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A5437624066C9900386548 /* VideoUpload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A5437824066C9900386548 /* VideoUpload */ = {
+			isa = PBXGroup;
+			children = (
+				22A5437924066C9900386548 /* AppDelegate.swift */,
+				22A5437B24066C9900386548 /* ContentView.swift */,
+				22A739A3246A2D9900CF27C8 /* Networking */,
+				22A5437D24066C9C00386548 /* Assets.xcassets */,
+				22A5438224066C9C00386548 /* Main.storyboard */,
+				22A5438524066C9C00386548 /* Info.plist */,
+				22A5438624066C9C00386548 /* VideoUpload.entitlements */,
+				22A5437F24066C9C00386548 /* Preview Content */,
+				2297CA32246A275000D54282 /* Endpoints.swift */,
+			);
+			path = VideoUpload;
+			sourceTree = "<group>";
+		};
+		22A5437F24066C9C00386548 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22A5438024066C9C00386548 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22A739A3246A2D9900CF27C8 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				22A543B1240D61CE00386548 /* Networking.swift */,
+				22886DFD24684DD90025C1B9 /* Encryption.swift */,
+				22886DF92468478B0025C1B9 /* SerializeKeys.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		6BE0130E6B879139DD476F1A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E921E5CD29161D3E228959F /* Pods-VideoUpload.debug.xcconfig */,
+				01F8FC57CDB981CBD177AEBD /* Pods-VideoUpload.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FE22FE3BBFF21B65EEBD474B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78E4802B15B5162AAA87738D /* Pods_VideoUpload.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A5437524066C9900386548 /* VideoUpload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A5438924066C9C00386548 /* Build configuration list for PBXNativeTarget "VideoUpload" */;
+			buildPhases = (
+				8EC9D0D877BAA38A04DEC9DC /* [CP] Check Pods Manifest.lock */,
+				22A5437224066C9900386548 /* Sources */,
+				22A5437324066C9900386548 /* Frameworks */,
+				22A5437424066C9900386548 /* Resources */,
+				78579A5AF67C7D09E1458590 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VideoUpload;
+			packageProductDependencies = (
+			);
+			productName = VideoUpload;
+			productReference = 22A5437624066C9900386548 /* VideoUpload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A5436E24066C9900386548 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Tim Abraham";
+				TargetAttributes = {
+					22A5437524066C9900386548 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 22A5437124066C9900386548 /* Build configuration list for PBXProject "VideoUpload" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22A5436D24066C9900386548;
+			packageReferences = (
+			);
+			productRefGroup = 22A5437724066C9900386548 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A5437524066C9900386548 /* VideoUpload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A5437424066C9900386548 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A5438424066C9C00386548 /* Main.storyboard in Resources */,
+				22A5438124066C9C00386548 /* Preview Assets.xcassets in Resources */,
+				22A5437E24066C9C00386548 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		78579A5AF67C7D09E1458590 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoUpload/Pods-VideoUpload-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VideoUpload/Pods-VideoUpload-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VideoUpload/Pods-VideoUpload-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EC9D0D877BAA38A04DEC9DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VideoUpload-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A5437224066C9900386548 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A5437C24066C9900386548 /* ContentView.swift in Sources */,
+				22A543B2240D61CE00386548 /* Networking.swift in Sources */,
+				22886DFA2468478B0025C1B9 /* SerializeKeys.swift in Sources */,
+				22886DFE24684DD90025C1B9 /* Encryption.swift in Sources */,
+				2297CA33246A275000D54282 /* Endpoints.swift in Sources */,
+				22A5437A24066C9900386548 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22A5438224066C9C00386548 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A5438324066C9C00386548 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A5438724066C9C00386548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22A5438824066C9C00386548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		22A5438A24066C9C00386548 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E921E5CD29161D3E228959F /* Pods-VideoUpload.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VideoUpload/VideoUpload.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoUpload/Preview Content\"";
+				DEVELOPMENT_TEAM = YPMGG398AJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VideoUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = TimAbraham.VideoUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		22A5438B24066C9C00386548 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F8FC57CDB981CBD177AEBD /* Pods-VideoUpload.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VideoUpload/VideoUpload.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"VideoUpload/Preview Content\"";
+				DEVELOPMENT_TEAM = YPMGG398AJ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = VideoUpload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = TimAbraham.VideoUpload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A5437124066C9900386548 /* Build configuration list for PBXProject "VideoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A5438724066C9C00386548 /* Debug */,
+				22A5438824066C9C00386548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A5438924066C9C00386548 /* Build configuration list for PBXNativeTarget "VideoUpload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A5438A24066C9C00386548 /* Debug */,
+				22A5438B24066C9C00386548 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22A5436E24066C9900386548 /* Project object */;
+}

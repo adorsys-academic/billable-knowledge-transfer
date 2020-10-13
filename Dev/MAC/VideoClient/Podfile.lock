@@ -1,0 +1,40 @@
+PODS:
+  - Alamofire (4.9.1)
+  - BigInt (4.0.0)
+  - CryptoSwift (1.3.1)
+  - secp256k1.swift (0.1.4)
+  - Web3 (0.4.2):
+    - Web3/Core (= 0.4.2)
+    - Web3/HTTPExtension (= 0.4.2)
+  - Web3/ContractABI (0.4.2):
+    - Web3/Core
+  - Web3/Core (0.4.2):
+    - BigInt (~> 4.0)
+    - CryptoSwift (~> 1.0)
+    - secp256k1.swift (~> 0.1)
+  - Web3/HTTPExtension (0.4.2):
+    - Web3/Core
+
+DEPENDENCIES:
+  - Alamofire (~> 4.5)
+  - Web3
+  - Web3/ContractABI
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - BigInt
+    - CryptoSwift
+    - secp256k1.swift
+    - Web3
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  BigInt: 2aad1a9942dc932ec8b84290d2c564a3d76f97ab
+  CryptoSwift: f12f037f6d0fcd6d48c96db0071b653de64e6c4d
+  secp256k1.swift: a7e7a214f6db6ce5db32cc6b2b45e5c4dd633634
+  Web3: 7b2c30f98f24cc290bc671ab525d7a30a2afbc73
+
+PODFILE CHECKSUM: e873b495208659f456d8ac8f85fea54d2347beab
+
+COCOAPODS: 1.9.0
